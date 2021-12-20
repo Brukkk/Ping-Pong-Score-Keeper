@@ -65,11 +65,15 @@ reset.addEventListener("click", ()=>{
 selectScore.addEventListener("click",()=>{
     winningScore = parseInt(selectScore.value);
     console.log(winningScore);
-    // MOBILE SOLUTION????
+    
     scores.forEach((score) =>{
         score.addEventListener("click", ()=>{
             console.log("New score : ", score.value)
             
+            winningScore = parseInt(score.value);
+        })
+        // MOBILE SOLUTION????
+        score.addEventListener("touchstart", ()=>{
             winningScore = parseInt(score.value);
         })
     })
