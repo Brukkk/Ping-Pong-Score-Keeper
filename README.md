@@ -4,7 +4,7 @@ This is a solution to the Ping Pong Score Keeper for the [The Web Developer Boot
 
 ## Table of contents
 
-- [Ping-Pong-Score-Keeper](#ping---pong---score---keeper)
+- [Ping-Pong-Score-Keeper](#ping-pong-score-keeper)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -58,7 +58,7 @@ Implementing 2 types of event listeners helped me understand why web pages may h
 - [x] Add-buttons and reset score
 - [x] Animation when match ends
 - [ ] Editing score
-- [ ] Keep playing if it's decided to prolong the match to a higher score
+- [ ] Keep playing if it's decided to prolong the match to a higher winning score
 
 
 
